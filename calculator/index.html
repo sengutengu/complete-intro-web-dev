@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link href="index.css" rel="stylesheet" />
+
+    <title>Calculator</title>
+  </head>
+  <body>
+    <article>
+      <h1>
+        Calculator Project for Frontend Masters, Complete Intro to Web Dev, v3
+      </h1>
+      <p>
+        A pretty basic implementation for practice with functions and event
+        listeners.
+      </p>
+      <p>
+        In the future, implement NaN handling, automatic reset after evaluation,
+        and perhaps automatically insert 0 before the decimal point.
+      </p>
+
+      <div class="calculator-body">
+        <div class="row contains-display">
+          <div class="display">
+            <div class="output">0</div>
+          </div>
+        </div>
+        <div class="buttons">
+          <div class="row contains-c">
+            <button class="button">C</button>
+            <button class="button">←</button>
+            <button class="button orange operator">÷</button>
+          </div>
+          <div class="row">
+            <button class="button">7</button>
+            <button class="button">8</button>
+            <button class="button">9</button>
+            <button class="button orange operator">×</button>
+          </div>
+          <div class="row">
+            <button class="button">4</button>
+            <button class="button">5</button>
+            <button class="button">6</button>
+            <button class="button orange operator">−</button>
+          </div>
+          <div class="row">
+            <button class="button">1</button>
+            <button class="button">2</button>
+            <button class="button">3</button>
+            <button class="button orange operator">+</button>
+          </div>
+          <div class="row contains-0">
+            <button class="button">0</button>
+            <button class="button">.</button>
+            <button class="button orange">=</button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <script src="calculator.js"></script>
+  </body>
+</html>
